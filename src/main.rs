@@ -1,5 +1,6 @@
+
 fn main() {
-    let data = ("20x3x11
+/*    let data = "20x3x11
 15x27x5
 6x29x7
 30x15x9
@@ -998,6 +999,18 @@ fn main() {
 10x1x18
 29x4x8
 21x2x22
-14x12x8");
-    println!("Hello, world!");
+14x12x8";*/
+let data = "2x3x4";
+
+
+for a in data.chars(){
+
+    let mut c = a as u32 -48;
+    println!("{}", a);
+    c = c * c;
+    println!("{}", c);
+    
+}
+
+   
 }
